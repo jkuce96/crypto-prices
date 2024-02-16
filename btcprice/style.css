@@ -1,0 +1,82 @@
+img{
+    width: 150px;
+    margin-top: 20px;
+    transition: transform 2s ease;
+    animation: rotateImage 2s infinite;
+    /* animation: rotateImage 5s linear infinite; */
+}
+
+
+@keyframes rotateImage {
+    from {
+        transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* Rotate 360 degrees */
+    }
+}
+/* Style for the form container */
+#forma {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for labels */
+#forma label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for input fields */
+#forma input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Style for the submit button */
+#forma button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+#forma button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.vicKrypto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vysledkyInput{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.obrazkos2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

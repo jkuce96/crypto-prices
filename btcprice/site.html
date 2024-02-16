@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <!-- <div class="buttons">
+            <button id="btc">Jaká je cena BTC?</button>
+        </div>
+        <div class="vysledky"></div>
+        <div class="obrazek"></div> -->
+
+        <div class="vicKrypto">
+            <form action="/submit" method="post" id="forma">
+                <label for="input1">Ticker:</label>
+                <input type="text" id="input1" name="input1" required>
+                <br>
+                <label for="input2">Měna:</label>
+                <input type="text" id="input2" name="input2" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="vysledkyInput"></div>
+            <div class="obrazkos2"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
